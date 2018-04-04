@@ -1,4 +1,4 @@
-# Sequelize Passport Sample
+# Sequelize Passport Auth Sample
 
 Sequelize and Passport.js typescript authentication sample.
 

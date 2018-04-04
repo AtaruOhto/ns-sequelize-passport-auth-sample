@@ -1,5 +1,5 @@
 {
-  "name": "ns-sequelize-sample",
+  "name": "ns-sequelize-passport-auth-sample",
   "version": "0.0.1",
   "description": "",
   "license": "MIT",
@@ -57,5 +57,6 @@
     "tsc": "^1.20150623.0",
     "tslint": "^5.9.1",
     "typescript": "^2.7.2"
-  }
+  },
+  "private": true
 }
