@@ -1,0 +1,8 @@
+*.swp
+.vscode
+.idea
+.env
+yarn-error.log
+data.sqlite
+node_modules/
+dist/

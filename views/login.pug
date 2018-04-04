@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    h1 Login Page!
+    p Please fill your username and secret password!
+        form(action=loginPath method="post")
+            div(style="margin-bottom: 30px;")
+                label(for="name" style="display: inline-block; width: 60px;") name
+                input(type="text" id="name" name="username")
+            div
+                label(for="pass" style="display: inline-block; width: 60px;") pass
+                input(type="password" id="pass" name="password")
+            div
+                input(type='hidden' name='_csrf' value=_csrf)
+                input(type="submit" value="Login")
